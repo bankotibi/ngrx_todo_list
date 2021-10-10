@@ -1,0 +1,6 @@
+<div class="wrapper">
+    <p [class.finished]="finished">{{text}}</p>
+    <input type="checkbox" [(ngModel)]="finished" (change)="finishEventEmitter.emit({id: id, state:finished})"/>
+    <!-- <input type="button" (click)="delete(id)" value="Del"/> -->
+    <input type="button" (click)="deleteEventEmitter.emit(id)" value="Del"/>
+</div>

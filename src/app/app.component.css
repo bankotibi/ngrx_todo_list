@@ -1,0 +1,15 @@
+.add-todo
+{
+    position: absolute;
+    top: 400px;
+    left: 30px;
+}
+
+div.items-holder
+{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: beige;
+}

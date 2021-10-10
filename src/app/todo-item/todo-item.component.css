@@ -1,0 +1,14 @@
+p.finished
+{
+    text-decoration: line-through;
+}
+
+div.wrapper
+{
+    display: flex;
+    align-items:center;
+    height: 25px;
+    background-color: cadetblue;
+    padding: 1px;
+    margin: 3px;
+}
